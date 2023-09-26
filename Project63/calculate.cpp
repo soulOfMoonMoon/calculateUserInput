@@ -29,7 +29,7 @@ void calculate(const double& userInput1, const double& userInput2, const char& u
 	}
 	default:
 		std::cout << "I don't know how but you entered in something invalid didn't you?";
-		getUserInput();
+		handleInputError();
 		break;
 	}
 
